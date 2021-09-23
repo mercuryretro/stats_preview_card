@@ -1,9 +1,34 @@
 body {
     background-color: hsl(233, 47%, 7%);
 }
+.heading {
+    color: hsl(0, 0%, 100%)
+}
+.accent {
+    color: hsl(277, 64%, 61%);
+}
 .card {
     background-color: hsl(244, 38%, 16%);
+    border-radius: 2%;
     display: flex;
+    overflow: hidden;
+}
+
+.main {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+}
+.stats p {
+    color:hsla(0, 0%, 100%, 0.75);
+}
+.larger {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: larger;
+    font-weight: bold;
 }
 
 
